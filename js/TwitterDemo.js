@@ -84,7 +84,7 @@
         if (!inputData.results.length) {
           return notifyApplication('No tweets found.', true);
         } else {
-          listElementMarkup = "<li><div class='tweet_image clearfix'><img src='${profile_image_url}'/></div><div><p class='tweet_username'>${from_user_name}</p><p class='tweet_date'>at ${created_at}</p><p class='tweet_body'>${text}</p></div></li>";
+          listElementMarkup = "<li><div class='tweet_image clearfix'><img src='${profile_image_url}'/></div><h3>${from_user_name}</h3><p class='tweet_date'>at ${created_at}</p><p class='tweet_body'>${text}</p><div class='clear'></div></li>";
           $.template('listElementMarkup', listElementMarkup);
           ($('<ul id="tweets" data-role="listview" data-theme="d"></ul>')).appendTo('#container');
           $.tmpl('listElementMarkup', inputData.results).appendTo('#tweets');
