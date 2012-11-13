@@ -1,0 +1,26 @@
+.tweet_image {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 2px solid #777;
+	overflow: hidden;
+	float: left;
+	display: block;
+	margin-right: 10px;
+	width: 48px;
+	height: 48px;
+}
+
+.tweet_text {
+	float: left;
+	clear: right;
+	display: inline;
+}
+
+#tweets .tweet_username {
+	font-weight: bold;
+}
+
+#tweets .tweet_date {
+	color: #777;
+}

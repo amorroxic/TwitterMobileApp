@@ -1,0 +1,2 @@
+$ ->
+	($ '#container').TwitterDemo {'debug':true}
