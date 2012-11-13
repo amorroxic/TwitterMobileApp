@@ -1,21 +1,25 @@
-#Mobile Boilerplate http://html5boilerplate.com
-v1.1
+HTML5 geolocation API + Twitter search demo
 
 ##Summary:
 
-A baseline for 'mobile first' web development. Read more at the wiki here: https://github.com/shichuan/mobile-html5-boilerplate/wiki
+This is only a demo / proof of concept,
+Makes heavy use of HTML5 mobile boilerplate / jQuery Mobile
 
-##License:
+##Links:
 
-###Major components:
-respond.js: Public Domain<br />
-Bookmark bubble library: Apache License, Version 2.0<br />
-Web Storage Portability Layer: Apache License, Version 2.0<br />
-Modernizr: MIT/BSD license<br />
-jQuery: MIT/GPL license<br />
-HTML5Doctor CSS reset: Creative Commons 3.0 <br />
-CSS Reset Reloaded: Public Domain 
+Demo: avego.nouauzina.ro
+Sources: https://github.com/amorroxic/TwitterMobileApp
 
-###Everything else:
+##Inner core
 
-The Unlicense (aka: public domain)
+The core of the application is in https://github.com/amorroxic/TwitterMobileApp/blob/master/js/TwitterDemo.js
+This ain't minified in order for you to be able to modify specific settings (geolocation radius, query string, etc)
+
+TwitterDemo.js was generated from two CoffeeScript source files:
+The startup file:
+https://github.com/amorroxic/TwitterMobileApp/blob/master/coffee/start.coffee
+
+and the jQuery plugin which takes care of interactivity:
+https://github.com/amorroxic/TwitterMobileApp/blob/master/coffee/TwitterDemo.coffee
+
+Thanks for checking it out!
