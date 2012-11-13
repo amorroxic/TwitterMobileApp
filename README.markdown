@@ -2,13 +2,16 @@ HTML5 geolocation API + Twitter search demo
 
 ##Summary:
 
-This is only a demo / proof of concept,
-Makes heavy use of HTML5 mobile boilerplate / jQuery Mobile
+- This is only a demo / proof of concept
+- Makes heavy use of HTML5 mobile boilerplate / jQuery Mobile
 
 ##Links:
 
-Demo: avego.nouauzina.ro
-Sources: https://github.com/amorroxic/TwitterMobileApp
+Demo:
+http://avego.nouauzina.ro
+
+Sources:
+https://github.com/amorroxic/TwitterMobileApp
 
 ##Inner core
 
